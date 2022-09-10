@@ -1,0 +1,113 @@
+body {
+    background-color:#2994b2;
+   padding:0px
+  }
+  nav {
+  
+background-color:#ffb400;
+color:#034561;
+display:flex;
+justify-content:flex-end;
+padding:5px;
+    margin:0px;
+    font-size:4px;
+ }
+  nav a {
+   margin-left:60px;
+   text-decoration:none; 
+   
+  }
+  #header {
+     margin-bottom:-80px;
+    padding:0px;
+    height:250px;
+   
+   
+  }
+
+  footer {
+background-color:#005792;
+    text-align:center;
+  }
+
+  ul {
+    list-style-type:none;
+    display:flex;
+  justify-content:center;
+  }
+
+  ul a {
+    font-size:30px;
+    margin:0 10px;
+  }
+  #navbar {
+    position:fixed;
+  }
+  #about {
+    padding:0px;
+   margin:0px;
+    text-align:center;
+   
+    
+  }
+ 
+ #contact {
+    text-align:center;
+ }
+#feedback{
+   text-align: center;
+  justify-content: center;
+  align-items: center;
+   display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.radio {
+  display: none;
+}
+.radio ~ span {
+  font-size: 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+
+ @media (min-width: 600px) {
+  .projects-container {
+ color:#2931b3;
+  }  
+} 
+@media (max-width: 300px) { 
+  p {
+    font-size:10px;
+  }
+ }
+ 
+
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
