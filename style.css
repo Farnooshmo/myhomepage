@@ -69,9 +69,8 @@ background-color:#005792;
   flex-wrap: wrap;
 }
  .navbar {
-    position:fixed;
-      justify-content:space-between;
-      align-items: end;
+   display:flex;
+justify-content:flex-end;
       padding:1rem 1.5rem;
      background-color:#ffb400;
 color:#034561;
