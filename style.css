@@ -108,7 +108,16 @@ padding:5px;
 }
 
 
-
+ @media (min-width: 600px) {
+  .projects-container {
+ color:#2931b3;
+  }  
+} 
+@media (max-width: 300px) { 
+  p {
+    font-size:10px;
+  }
+ }
 
 
 @media only screen and (max-width: 768px){
