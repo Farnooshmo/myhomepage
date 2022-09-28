@@ -64,8 +64,7 @@ test("There are at least 500 words on the page", () => {
   expect(getWords.length).toBeGreaterThanOrEqual(500);
 });
 
-const console = document.getElementById("tests");
-prettify.toHTML(run(), console);
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", mobileMenu);
