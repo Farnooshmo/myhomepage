@@ -2,23 +2,9 @@ body {
     background-color:#385170;
    padding:0px
   }
- "/*" nav {
-  
-background-color:#ffb400;
-color:#034561;
-display:flex;
-justify-content:flex-end;
-padding:5px;
-    margin:0px;
-    font-size:4px;
- }
-"*/"
 
-  "/*"nav a {
-   margin-left:60px;
-   text-decoration:none; 
-   
-  }"*/"
+
+  
 
   #header {
      margin-bottom:-80px;
@@ -120,18 +106,6 @@ padding:5px;
 }
 
 
-
-
-"/*" @media (min-width: 600px) {
-  .projects-container {
- color:#2931b3;
-  }  
-} 
-@media (max-width: 300px) { 
-  p {
-    font-size:10px;
-  }
- }"*/"
 
 @media only screen and (max-width: 768px){
     .nav-menu{
