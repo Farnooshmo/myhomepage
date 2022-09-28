@@ -69,25 +69,12 @@ prettify.toHTML(run(), console);
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", mobileMenu);
+
 function mobileMenu(){
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 
-var menu, item;
-
-
-menu = ['About', 'Contact', 'Feedback'];
-
-
-document.getElementById('menu').addEventListener('click', (event) => {
-  let element_list = document.getElementById('list');
-  element_list.replaceChildren();
-  menu.forEach((item) => {
-    let element_list2 = document.getElementById('list');
-    let new_li = document.createElement('li');
-    new_li.innerText = item;
-
-    element_list2.appendChild(new_li);
-  });
-
-});
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
