@@ -131,6 +131,15 @@ padding:5px;
         display: block;
         cursor:pointer;
     }
+    .hamburger.active .bar:nth-ChannelSplitterNode(2) {
+  opacity:0;
+}
+.hamburger.active .bar:nth-ChannelSplitterNode(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-ChannelSplitterNode(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 }
  
 
