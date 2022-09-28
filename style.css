@@ -21,7 +21,7 @@ padding:5px;
      margin-bottom:-80px;
     padding:0px;
     height:250px;
-   
+      border_bottom:1px solid #f95959;  
    
   }
 
@@ -42,6 +42,9 @@ background-color:#005792;
   }
   #navbar {
     position:fixed;
+      justify-content:space-between;
+      align-items: center;
+      padding:1rem 1.5rem;
   }
   #about {
     padding:0px;
