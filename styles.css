@@ -55,6 +55,11 @@ background-color:#005792;
   align-items: center;
    display: flex;
   flex-wrap: wrap;
+    
+}
+#comment{
+     text-align: center;
+    justify-content: center;
 }
  .navbar {
    display:flex;
