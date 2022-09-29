@@ -92,4 +92,4 @@ function closeMenu() {
     return number_value
   }
 }
-alert("hello");
+//alert("hello");
