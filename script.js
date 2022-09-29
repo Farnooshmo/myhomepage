@@ -113,3 +113,4 @@ document.getElementById('submit').addEventListener('click', (event) => {
   element_list.appendChild(new_div2);
 
 });
+console.log("hello")
