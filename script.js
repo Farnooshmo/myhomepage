@@ -15,16 +15,16 @@
   These are all the elements we will look for.
    ===================
 */
-const getHeader = document.querySelectorAll("header"),
-  getH1 = document.querySelectorAll("h1"),
-  getSiteHeader = document.querySelectorAll(".c-site-header"),
-  getAria = document.querySelectorAll('nav[aria-label="Main Site Links."]'),
-  getMain = document.querySelectorAll("main"),
-  getFooter = document.querySelectorAll("footer"),
-  getSiteFooter = document.querySelectorAll(".c-site-footer"),
-  getIFrame = document.querySelectorAll("iframe"),
-  getImage = document.querySelectorAll("img"),
-  getWords = document.body.innerText;
+// const getHeader = document.querySelectorAll("header"),
+//   getH1 = document.querySelectorAll("h1"),
+//   getSiteHeader = document.querySelectorAll(".c-site-header"),
+//   getAria = document.querySelectorAll('nav[aria-label="Main Site Links."]'),
+//   getMain = document.querySelectorAll("main"),
+//   getFooter = document.querySelectorAll("footer"),
+//   getSiteFooter = document.querySelectorAll(".c-site-footer"),
+//   getIFrame = document.querySelectorAll("iframe"),
+//   getImage = document.querySelectorAll("img"),
+//   getWords = document.body.innerText;
 
 /* =================
    ASSERTIONS 
@@ -33,36 +33,36 @@ const getHeader = document.querySelectorAll("header"),
    The tests will run every time you update your code.
    ===================
 */
-test("There is at least one header element", () => {
-  expect(getHeader.length).toBeGreaterThanOrEqual(1);
-});
-test("There is at least one h1", () => {
-  expect(getH1.length).toBeGreaterThanOrEqual(1);
-});
-test("There is only one header element with the class c-site-header", () => {
-  expect(getSiteHeader.length).toBe(1);
-});
-test("There is a nav element with an aria-label of Main Site Links.", () => {
-  expect(getAria.length).toBeGreaterThanOrEqual(1);
-});
-test("There is only one main element", () => {
-  expect(getMain.length).toBe(1);
-});
-test("There is at least one footer element", () => {
-  expect(getFooter.length).toBeGreaterThanOrEqual(1);
-});
-test("There is only one footer element with the class c-site-footer", () => {
-  expect(getSiteFooter.length).toBe(1);
-});
-test("There is embedded video", () => {
-  expect(getIFrame.length).toBeGreaterThanOrEqual(1);
-});
-test("There is at least one image", () => {
-  expect(getImage.length).toBeGreaterThanOrEqual(1);
-});
-test("There are at least 500 words on the page", () => {
-  expect(getWords.length).toBeGreaterThanOrEqual(500);
-});
+// test("There is at least one header element", () => {
+//   expect(getHeader.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There is at least one h1", () => {
+//   expect(getH1.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There is only one header element with the class c-site-header", () => {
+//   expect(getSiteHeader.length).toBe(1);
+// });
+// test("There is a nav element with an aria-label of Main Site Links.", () => {
+//   expect(getAria.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There is only one main element", () => {
+//   expect(getMain.length).toBe(1);
+// });
+// test("There is at least one footer element", () => {
+//   expect(getFooter.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There is only one footer element with the class c-site-footer", () => {
+//   expect(getSiteFooter.length).toBe(1);
+// });
+// test("There is embedded video", () => {
+//   expect(getIFrame.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There is at least one image", () => {
+//   expect(getImage.length).toBeGreaterThanOrEqual(1);
+// });
+// test("There are at least 500 words on the page", () => {
+//   expect(getWords.length).toBeGreaterThanOrEqual(500);
+// });
 
 
 /*const hamburger = document.querySelector(".hamburger");
@@ -83,34 +83,34 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }*/
 
-  function getNumberOrString(value) {
-  // Convert a string value to a number if possible
-  let number_value = Number(value);
-  if (Number.isNaN(number_value)) {
-    return value
-  } else {
-    return number_value
-  }
-}
+//   function getNumberOrString(value) {
+//   // Convert a string value to a number if possible
+//   let number_value = Number(value);
+//   if (Number.isNaN(number_value)) {
+//     return value
+//   } else {
+//     return number_value
+//   }
+// }
 
 
 
-document.getElementById('submit').addEventListener('click', (event) => {
-  event.preventDefault();
-  let element_list = document.getElementById('list'); 
+// document.getElementById('submit').addEventListener('click', (event) => {
+//   event.preventDefault();
+//   let element_list = document.getElementById('list'); 
   
-  let new_div = document.createElement('div');
-  new_div.innerText = getNumberOrString(document.getElementById('name').value);
+//   let new_div = document.createElement('div');
+//   new_div.innerText = getNumberOrString(document.getElementById('name').value);
 
-  element_list.appendChild(new_div);
-  let new_span = document.createElement('span');
-  new_span.innerText = 'commented;';
+//   element_list.appendChild(new_div);
+//   let new_span = document.createElement('span');
+//   new_span.innerText = 'commented;';
 
-  element_list.appendChild(new_span);
-  let new_div2 = document.createElement('div');
-  new_div2.innerText = getNumberOrString(document.getElementById('comment').value);
+//   element_list.appendChild(new_span);
+//   let new_div2 = document.createElement('div');
+//   new_div2.innerText = getNumberOrString(document.getElementById('comment').value);
 
-  element_list.appendChild(new_div2);
+//   element_list.appendChild(new_div2);
 
-});
-console.log("hello")
+// });
+console.log("hello");
