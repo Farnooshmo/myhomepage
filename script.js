@@ -96,7 +96,9 @@ function closeMenu() {
 
 
 document.getElementById('submit').addEventListener('click', (event) => {
-  let element_list = document.getElementById('list');
+  event.preventDefault();
+  let element_list = document.getElementById('list'); 
+  
   let new_div = document.createElement('div');
   new_div.innerText = getNumberOrString(document.getElementById('name').value);
 
