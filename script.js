@@ -65,7 +65,7 @@ test("There are at least 500 words on the page", () => {
 });
 
 
-const hamburger = document.querySelector(".hamburger");
+/*const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", mobileMenu);
@@ -81,7 +81,7 @@ function mobileMenu(){
 function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}
+}*/
 
   function getNumberOrString(value) {
   // Convert a string value to a number if possible
@@ -92,4 +92,22 @@ function closeMenu() {
     return number_value
   }
 }
-//alert("hello");
+
+
+
+document.getElementById('submit').addEventListener('click', (event) => {
+  let element_list = document.getElementById('list');
+  let new_div = document.createElement('div');
+  new_div.innerText = getNumberOrString(document.getElementById('name').value);
+
+  element_list.appendChild(new_div);
+  let new_span = document.createElement('span');
+  new_span.innerText = 'commented;';
+
+  element_list.appendChild(new_span);
+  let new_div2 = document.createElement('div');
+  new_div2.innerText = getNumberOrString(document.getElementById('comment').value);
+
+  element_list.appendChild(new_div2);
+
+});
