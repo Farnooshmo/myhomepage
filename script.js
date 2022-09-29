@@ -5,10 +5,10 @@
    ===================
 */
 
-const {
-  core: { test, expect, run },
-  prettify
-} = window.jestLite;
+// const {
+//   core: { test, expect, run },
+//   prettify
+// } = window.jestLite;
 
 /* =================
   FIND ELEMENTS
