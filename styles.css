@@ -1,5 +1,5 @@
 body {
-  background-color: #005689;
+  background-color: #034b75;
   padding: 0px;
 }
 
@@ -58,6 +58,24 @@ h3 {
   text-align: center;
   justify-content: center;
 }
+
+#name {
+  border-radius: 5px;
+  margin: 4px;
+}
+
+#comment {
+  border-radius: 5px;
+  margin: 4px;
+}
+
+#submit {
+  border-radius: 7px;
+  padding-top: 3px 2px;
+  margin: 6px;
+  background: skyblue;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -91,7 +109,7 @@ h3 {
 .nav-link {
   font-size: 1.6rem;
   font-weight: 100;
-  color: #611919;
+  color: #0c2233;
   text-decoration: none;
 }
 
