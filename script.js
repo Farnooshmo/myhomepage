@@ -64,53 +64,49 @@
 //   expect(getWords.length).toBeGreaterThanOrEqual(500);
 // });
 
-
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", mobileMenu);
 
-function mobileMenu(){
+function mobileMenu() {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-  
-  
+
   const navLink = document.querySelectorAll(".nav-link");
-  navLink.forEach(n => n.addEventListener("click", closeMenu));
-  }  
+  navLink.forEach((n) => n.addEventListener("click", closeMenu));
+}
 function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
 }
 
-  function getNumberOrString(value) {
+function getNumberOrString(value) {
   // Convert a string value to a number if possible
   let number_value = Number(value);
   if (Number.isNaN(number_value)) {
-    return value
+    return value;
   } else {
-    return number_value
+    return number_value;
   }
 }
 
-
-
-document.getElementById('submit').addEventListener('click', (event) => {
+document.getElementById("submit").addEventListener("click", (event) => {
   event.preventDefault();
-  let element_list = document.getElementById('list'); 
-  
-  let new_div = document.createElement('div');
-  new_div.innerText = getNumberOrString(document.getElementById('name').value);
+  let element_list = document.getElementById("list");
+
+  let new_div = document.createElement("div");
+  new_div.innerText = getNumberOrString(document.getElementById("name").value);
 
   element_list.appendChild(new_div);
-  let new_span = document.createElement('span');
-  new_span.innerText = 'commented;';
+  let new_span = document.createElement("span");
+  new_span.innerText = "commented;";
 
   element_list.appendChild(new_span);
-  let new_div2 = document.createElement('div');
-  new_div2.innerText = getNumberOrString(document.getElementById('comment').value);
+  let new_div2 = document.createElement("div");
+  new_div2.innerText = getNumberOrString(
+    document.getElementById("comment").value
+  );
 
   element_list.appendChild(new_div2);
-
 });
-console.log("hello");
