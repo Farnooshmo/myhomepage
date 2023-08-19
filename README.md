@@ -8,3 +8,8 @@ Welcome to my very first personal webpage! Here you will find a few key elements
 - Links to my social media accounts.
   
 __The technologies used in this project are :__
+
+- HTML
+- CSS
+- JavaScript
+ 
