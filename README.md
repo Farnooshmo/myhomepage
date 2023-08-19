@@ -13,6 +13,7 @@ __The technologies used in this project are:__
 - HTML
 - CSS
 - JavaScript
+  
 __Challenges I faced:__
 
 - Aligned the navbar items.
