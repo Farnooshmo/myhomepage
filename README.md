@@ -6,3 +6,5 @@ Welcome to my very first personal webpage! Here you will find a few key elements
 - A rating section with emojis
 - A form for submitting feedback
 - Links to my social media accounts.
+  
+__The technologies used in this project are :__
